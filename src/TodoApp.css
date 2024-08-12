@@ -1,0 +1,147 @@
+
+.todo-app {
+    z-index: 900;
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #6d8791;
+    border-radius: 10px;
+    box-shadow: 0 4px 9px rgb(166, 209, 12);
+  }
+  
+  
+  .todo-app h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+
+  .todo-app-image {
+
+    width: 35%; 
+    height: auto;
+    display: block;
+    margin: 20px 180px; 
+  }
+  
+  .todo-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  .todo-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .todo-btn {
+    padding: 10px 20px;
+    background-color: #95c11e;
+    border: none;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .todo-btn:hover {
+    background-color: #618108;
+  }
+  
+  .todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(190, 239, 66, 0.927);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .todo p {
+    flex: 1;
+    margin: 0;
+    padding-right: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .todo p.completed {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .todo p.incompleted {
+    color: #333;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .edit-btn {
+    background-color: #ffa500;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #cc8400;
+  }
+  
+  .delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #cc0000;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #95c11e;
+    border: none;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: #618108;
+  }
+  
